@@ -7,12 +7,29 @@ public class FindLowestDifference {
          Read this below two array. Find the lowest difference between the two array cell.
          The lowest difference between cells is 1
         */
-        int [] array1 = {30,12,5,9,2,20,33,1};
-        int [] array2 = {18,25,41,47,17,36,14,19};
+
+        int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1};
+        int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19};
+
+//        int min; //5
+//
+//        for(int i = 0; i < array1.length; i++){
+//
+//            for(){
+//                if(diff <= min){
+//                    min = diff;
+//                }
+//            }
+//
+//        }
 
         int min;
-
-
+        for (int i = 0; i < array1.length; i++){
+            for (int j = 0; j < array2.length; j++){
+                int diff=Math.abs(array1[i]-array2[j]);
+                if(min < diff) diff=min;
+            }
+        }
+        System.out.println(min);
     }
-
 }
