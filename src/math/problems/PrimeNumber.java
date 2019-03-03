@@ -13,6 +13,31 @@ public class PrimeNumber {
 		 *
 		 */
 
-	}
+		int a = 0;
+		int num = 0;
 
+		String primeNumbers = "";
+
+		for (a = 1; a <= 1000000; a++) {
+
+			int counter = 0;
+
+			for (num = a; num >= 1; num--) {
+
+				if (a%num == 0) {
+
+					counter = counter + 1;
+				}
+			}
+			if (counter==2) {
+
+				primeNumbers = primeNumbers + a + "\n";
+
+			}
+			System.out.println("Prime numbers from 1 to 100 are :");
+
+			System.out.println(primeNumbers);
+		}
+	}
 }
+
