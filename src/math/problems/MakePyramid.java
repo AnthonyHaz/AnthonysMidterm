@@ -14,7 +14,7 @@ public class MakePyramid {
 
         */
 
-        for (int a=99; a>0; a--) {
+        for (int a=50; a>0; a--) {
 
             int b;
 
@@ -23,7 +23,7 @@ public class MakePyramid {
 
             }
 
-            for (int c=b; c<100; c++) {
+            for (int c=b; c<51; c++) {
 
                 System.out.print("*");
             }
