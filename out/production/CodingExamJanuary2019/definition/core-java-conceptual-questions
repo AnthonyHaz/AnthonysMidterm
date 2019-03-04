@@ -190,7 +190,8 @@ A. Multithreading executes multiple threads simultaneously. A thread is a lightw
  processing. Multiprocessing and multithreading are used to achieve multitasking.
 
 What is the use of synchronization in Java?
-A.
+A. Synchronized provides exclusive access to a shared resource with multiple threads in Java. It guarantees that no two
+threads can execute a synchronized method which requires the same lock simultaneously.
 
 What is Framework?
 Frameworks are large bodies of written code to which you add your own code to solve a problem in a specific domain
@@ -205,7 +206,9 @@ What are the dependencies for this project?
 A. mysql-connector, testng, java-json, and mongo-java-driver
 
 what is dependency injection in java?
-A.
+A. Dependency injection is called Inversion of Control. This concept a class should not configure its dependencies
+statically but should be configured from the outside. A Java class has a dependency on another class, if it uses an
+instance of this class aka _class dependency.
 
 What is static binding and dynamic binding?
 A. Static binding is during compile time and dynamic binding happens during runtime
