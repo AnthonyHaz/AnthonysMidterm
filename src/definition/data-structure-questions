@@ -6,13 +6,34 @@ A.
 
 What are the various operations that can be performed on different Data Structures?
 List out the areas in which data structures are applied extensively?
+A.
+
 what is an Array?
+A.Array stores block memory and is used to store a collection of data.
+
 what is the difference between the Array and ArrayList?
+A.The difference between Array and ArrayList is, Array's size is static which means its length
+  is fixed and can't change once created. ArrayList is dynamic, it automatically change itself when adding elements
+  beyond its capacity. Array uses length function and ArrayList uses size function.
+
 what is LinkedList?
+A.LinkedList is linear data structure where every element is a different object.
+
 How is an Array different from Linked List?
+A. Every element is independent and no ties with previous element or location. Linked list,
+  location or address of elements is stored in the link part of previous element/node. In array, no pointers are used like
+  linked list so no need of extra space in memory for pointer.
+
 what is queue?
+A. A queue is designed to have elements put at the end of the queue, and elements removed from the beginning of the
+   queue. Queue follows First In First Out FIFO rule.
+
 what is stack?
+A.
+
 what is FIFO and LIFO?
+A. FIFO stands for First In First Out and LIFO stands for Last In First Out.
+
 what is the order of complexity?
 what is the best case to search an element from an array?
 what is the worst case to search an element from an array?
@@ -20,15 +41,33 @@ what is tree in data structure?
 what is graph in data structure?
 what is the difference between the HashTable and HashMap?
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. RDBMS uses Array and network data model uses Graphs and Hierarchical data model uses Trees.
+
 How HashMap works in java?
+A.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.
+
 What are the different ways of copying an array into another array?
+A. Object.clone() , Arrays.copyOf() , Arrays.copyOfRange(), System.arraycopy()
+
 What is difference between an array and a linked list?
 What is DFS and BFS?
+A.
+
 What is Recursion?
+A. Recursion is the process where a method calls itself continuously and a method in java that calling itself is
+   known as recursive method.
+
 What are linear and non linear data Structures?
+A. Linear data structures are Array, Stack, Queue and LinkedList. Non-Linear data structures are trees and graphs.
+
 What is Big-(O)-notation?
+A.
+
 Outlined different kind of sorting algorithm with time complexity?
+A. Insertion sort,Selection sort,Merge sort,Heapsort,Quick sort,Bubble sort,Shell sort,Comb sort
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

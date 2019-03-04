@@ -8,7 +8,7 @@ public class UnitTestingMath {
 
         try {
 
-            Assert.assertEquals(Factorial.factorial(5), 100);
+            Assert.assertEquals(Factorial.factorial(5), 120);
 
             System.out.println("Unit testing passed");
 

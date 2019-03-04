@@ -24,7 +24,7 @@ public class Pattern {
 
 			for (int i=0; i<10; i++) {
 
-				System.out.print("" + num);
+				System.out.print(" " + num);
 				array[x] = num;
 				num -= count;
 				x++;
