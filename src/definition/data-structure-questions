@@ -1,12 +1,16 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A. We need it because its specialized format for organizing and storing data which includes the array,
+   the file, the record, the table, and the tree. It's designed to organize data for any purpose so that
+   it can be accessed.
 
 What are the various operations that can be performed on different Data Structures?
+A. Inserting, Deleting, Sorting, Merging,Traversing, and Searching.
+
 List out the areas in which data structures are applied extensively?
-A.
+A. Applied extensively in Database Management System, Compiler Design, Graphics, Artificial Intelligence,
+   Operating System, Statistical analysis package, Numerical Analysis, and Simulation.
 
 what is an Array?
 A.Array stores block memory and is used to store a collection of data.
@@ -29,32 +33,57 @@ A. A queue is designed to have elements put at the end of the queue, and element
    queue. Queue follows First In First Out FIFO rule.
 
 what is stack?
-A.
+A.  Stack allows data to be inserted and removed and it follows Last In First Out so last data to be
+    inserted will be the first data to be removed.
 
 what is FIFO and LIFO?
 A. FIFO stands for First In First Out and LIFO stands for Last In First Out.
 
 what is the order of complexity?
+A. It is a mathematical expression of the size of the input, so the algorithm finishes between two factors
+   of it. Generally, the smaller the order of complexity of the program's underlying algorithm, the faster it
+   will run and the better it will scale as the input gets larger.
+
 what is the best case to search an element from an array?
+A. Binary search
+
 what is the worst case to search an element from an array?
+A. Hypothetical data set.
+
 what is tree in data structure?
+A. Trees represent the nodes connected by edges.
+
 what is graph in data structure?
+A. A vertex or node connected by edges so the graph is a set of vertices and binary relation between
+    vertices, and adjacency.
+
 what is the difference between the HashTable and HashMap?
+A. HashTable is synchronized whereas hashMap is not synchronized. HashTable does not allows null keys or values whereas
+   HashMap allows null keys.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 A. RDBMS uses Array and network data model uses Graphs and Hierarchical data model uses Trees.
 
 How HashMap works in java?
-A.
+A. HashMap stores both key and value object, in bucket, as an object of Entry
+   class which implements the nested interface Map.Entry. HashMap provides put for storing and get key method
+   for retrieving Values from HashMap. equals () method is used to compare objects for equality
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A. Its a runtime Exception thrown only at runtime and happenswhen Java program tries to
+   access an invalid index.
 
 What are the different ways of copying an array into another array?
 A. Object.clone() , Arrays.copyOf() , Arrays.copyOfRange(), System.arraycopy()
 
 What is difference between an array and a linked list?
+A. Every element in array is independent no connection with other elements or with its location and Linked list is
+   location or address of elements stored in the link part of previous element.
+
 What is DFS and BFS?
-A.
+A. DFS is a method for exploring a tree, and graph to go far down one path before backing up and trying
+   a different one. BFS is a method for exploring a tree or graph it works by first exploring all the
+   nodes one step away, then all the nodes two steps away and etc.
 
 What is Recursion?
 A. Recursion is the process where a method calls itself continuously and a method in java that calling itself is
@@ -64,7 +93,9 @@ What are linear and non linear data Structures?
 A. Linear data structures are Array, Stack, Queue and LinkedList. Non-Linear data structures are trees and graphs.
 
 What is Big-(O)-notation?
-A.
+A. Big-(O) notation is the performance or complexity of an algorithm and describes
+   the worst-case scenario, so it can be used to describe the execution time required or the space used by
+    an algorithm.
 
 Outlined different kind of sorting algorithm with time complexity?
 A. Insertion sort,Selection sort,Merge sort,Heapsort,Quick sort,Bubble sort,Shell sort,Comb sort
